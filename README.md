@@ -1,5 +1,5 @@
 # Ex. No. 7 - SIMULATION OF PRE PROCESSING IN ADDITIVE MANUFACTURING
-### DATE: 
+### DATE: 25.05.23
 ## AIM:
 ### To simulate the Pre Processing for 3D printing.
 
@@ -39,14 +39,27 @@
 ### ●	If the user follows an incorrect sequence then a pop-up will appear on the screen showing the name of the process to be selected.
 
 ## OUTPUT:
-![123_1](https://github.com/Sellakumar1987/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/ec8dafd7-cb7c-4a5b-936c-41e86a32a9da)
-![123_2](https://github.com/Sellakumar1987/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/c071a941-e5b4-4b31-af63-5f9fe08cd0fb)
-![123_3](https://github.com/Sellakumar1987/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/ebb3a944-eeb0-45e8-9841-d58997840c54)
+### CAD file preparation
+![241975080-bc23de90-9348-4fd8-88ba-df2c711b522f](https://github.com/mathes6112004/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/119477782/63f7c6f0-7baf-4e54-bffa-b993ca6dd3a1)
+The first step in rapid prototyping is to prepare a computer-aided design (CAD) model of the object to be fabricated using layer based manufacturing processes.Once this process complete,the model is either converted or exported as STL  file.
+### Conversion to STL
+![241975359-196e4063-2cec-4420-9015-5856cfd4e16d](https://github.com/mathes6112004/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/119477782/d480d177-1857-4309-9767-cf3783c7cb35)
+STL file is also known standard tesstellation language in which model is represented as triangular patterns.It covers only the information about surface structure of the model not the internal features.on CAD software itself ,it process and convert CAD file into STL  file
+### Orientation
+![241975607-1f97f0c6-76bb-4b9e-bd41-20bc3cdb4c8d](https://github.com/mathes6112004/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/119477782/1fece459-b475-4a98-924d-c1d71bc00346)
+In slicer software STL file is loaded .The object orientation is need to be check.without proper orientation ,time and excess material can be consumed.A proper orientation increase strength of the model .The model should be printed along the direction of force that going to withstand.
+### Support structure
+![241975954-016b6fee-09e0-46c0-877f-577566465129](https://github.com/mathes6112004/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/119477782/f154549f-9728-432c-8350-dce66679a3f4)
+As we see before proper orientation need lesser support material .But at some places there might be need of support material which supports overhanging parts(ie.,angle above 45).However they need to be removed after printing.
+### Slicing
+![241976096-9b011d94-bb79-41c6-ac03-0ee1077c54cf](https://github.com/mathes6112004/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/119477782/7e5c2310-27d8-486e-9e07-d1300d7c4ef6)
+slicing is converting digital 3D models into printing instructions for a given 3D printer to build an object. In addition to the model itself, the instructions contain user-entered 3D printing parameters, such as layer height, speed, and support structure settings.
+### Path planning
+![241976303-792f00e4-d149-4431-b3a1-6847e2227c2e](https://github.com/mathes6112004/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/119477782/cbe580b7-157d-43de-b105-f37187c535b5)
+The infill pattern determines the arrangement of the internal structure within the 3D printed object. Common infill patterns include rectilinear, honeycomb, grid, and concentric. Each pattern has its own characteristics in terms of strength, material usage, print time, and surface finish. The choice of infill pattern depends on the specific requirements of the printed object
 
-## Output:
-
-### Name:
-### Register Number:
+### Name:MATHESWARAN K
+### Register Number:212222110024
 
 ## Result: 
 ### Thus the simulation on the Preprocessing in additive manufacturing is completed.
